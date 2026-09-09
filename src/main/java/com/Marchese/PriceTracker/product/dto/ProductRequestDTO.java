@@ -1,4 +1,8 @@
 package com.Marchese.PriceTracker.product.dto;
 
-public class ProductRequestDTO {
+import java.math.BigDecimal;
+
+public record ProductRequestDTO(String name, String url, String store, BigDecimal targetPrice) {
+
+
 }
